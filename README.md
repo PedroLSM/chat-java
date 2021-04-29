@@ -61,3 +61,4 @@ Em Java, usamos a classe Thread do pacote java. lang para criarmos linhas de exe
 - [Jeova Machado Freitas Filho 20192113904 - GIT]()
 - [Rafael de Oliveira Machado - 20192113816 - GIT](https://github.com/rafaelarievilo)
 
+.
