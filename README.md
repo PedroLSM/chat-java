@@ -31,13 +31,13 @@ falar sobre sistemas distribuidos  aqui pedro
 ---
 
 ## Java e Java Virtual Machine JVM
-falar sobre jvm  aqui pedro 
+A JVM é responsável pelo gerenciamento dos aplicativos, à medida que são executados. Graças à máquina virtual Java, os programas escritos em Java podem funcionar em qualquer plataforma de hardware e software que possua uma versão da JVM, tornando assim essas aplicações independentes da plataforma onde funcionam. 
 
 ---
 
 ## Thread
-falar sobre thread aqui
-
+Thread é um pequeno programa que trabalha como um subsistema, sendo uma forma de um processo se autodividir em duas ou mais tarefas. É o termo em inglês para Linha ou Encadeamento de Execução. ... Os threads possuem vantagens e desvantagens ao dividir um programa em vários processos.
+Em Java, usamos a classe Thread do pacote java. lang para criarmos linhas de execução paralelas. A classe Thread recebe como argumento um objeto com o código que desejamos rodar.
 ---
 
 ## Tecnologias utilizadas
@@ -55,8 +55,8 @@ falar sobre thread aqui
 ---
 
 ## Desenvolvido por:
-- [Pedro - GIT](https://github.com/PedroLSM)
-- [Matheus Gustavo Pereira - GIT](https://github.com/matheusmgp)
-- [Jeová - GIT]()
-- [Rafael - GIT](https://github.com/rafaelarievilo)
+- [Pedro Lucas da Silva Matias - 20191112387 - GIT](https://github.com/PedroLSM)
+- [Matheus Gustavo Pereira 20192113862 - GIT](https://github.com/matheusmgp)
+- [Jeova Machado Freitas Filho 20192113904 - GIT]()
+- [Rafael de Oliveira Machado - 20192113816 - GIT](https://github.com/rafaelarievilo)
 
