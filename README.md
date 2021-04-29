@@ -5,12 +5,12 @@
 
 
 ## Índice 
-- [Sobre](#-sobre)
-- [Sistemas Distribuidos](#-sistemas-distribuidos)
-- [JAVA e JAVA Virtual Machine JVM](#-java-e-java-virtual-machine-jvm)
-- [Thread](#-thread)
-- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Como baixar o projeto](#-como-baixar-o-projeto)
+- [Sobre](#sobre)
+- [Sistemas Distribuidos](#sistemas-distribuidos)
+- [JAVA e JAVA Virtual Machine JVM](#java-e-java-virtual-machine-jvm)
+- [Thread](#thread)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Como baixar o projeto](#como-baixar-o-projeto)
 
 
 ---
