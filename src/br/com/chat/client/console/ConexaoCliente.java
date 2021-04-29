@@ -6,7 +6,11 @@ import java.io.InputStreamReader;
 import java.net.Socket;
 
 public class ConexaoCliente extends Thread {
+
+    // socket do cliente
     private Socket socket;
+
+    // quando verdadeiro encerrar conexao
     public static boolean done = false;
 
     public ConexaoCliente(Socket s) {
@@ -15,11 +19,14 @@ public class ConexaoCliente extends Thread {
 
     public void run() {
         try {
+            // Instâcia para ler as mensagens recebidas
             BufferedReader entrada = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+
+            // Capturar e mostrar a mensagem recebida
             while (true) {
                 String linha = entrada.readLine();
 
-                if (linha == null) {
+                if (linha == null || linha.split(":", 2).length < 2) {
                     System.out.println("Conexão encerrada!");
                     break;
                 }

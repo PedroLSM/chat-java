@@ -13,7 +13,7 @@ import javax.swing.SwingWorker;
 
 /**
  *
- * @author pedro
+ * @author pedro, gustavo, rafael e jeova
  */
 public class JFChat extends javax.swing.JFrame {
 

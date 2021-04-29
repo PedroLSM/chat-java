@@ -9,6 +9,7 @@ import java.net.UnknownHostException;
 
 public class ClienteConsole {
 
+    // socket do cliente
     private Socket socket;
 
     public ClienteConsole(String host, int porta) throws UnknownHostException, IOException {
@@ -18,27 +19,35 @@ public class ClienteConsole {
     public ClienteConsole(int porta) throws UnknownHostException, IOException {
         socket = new Socket("127.0.0.1", porta);
     }
-    
-    public void iniciarConexao() throws IOException {
 
+    /**
+     * Iniciar conexão com o servidor
+     * 
+     * @throws IOException
+     */
+    public void iniciarConexao() throws IOException {
+        // Instâcia para enviar as mensagens
         PrintStream saida = new PrintStream(socket.getOutputStream());
+
+        // Instâcia para ler as mensagens
         BufferedReader teclado = new BufferedReader(new InputStreamReader(System.in));
 
-        System.out.println("Informe seu apelido: ");
+        // Solicitar apelido
+        System.out.print("Informe seu apelido: ");
         String meuNome = teclado.readLine();
 
+        // Estabelecer conexão com o servidor
         ConexaoCliente conexaoCliente = new ConexaoCliente(socket);
         conexaoCliente.start();
 
-        String linha;
+        // Ler e enviar para servidor mensagem do cliente
         while (true) {
             System.out.print("> ");
 
-            linha = meuNome + ":" + teclado.readLine();
+            String linha = meuNome + ":" + teclado.readLine();
 
-            if (ConexaoCliente.done) {
+            if (ConexaoCliente.done)
                 break;
-            }
 
             saida.println(linha);
         }

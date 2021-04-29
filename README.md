@@ -20,7 +20,20 @@
 ## 🔖 Sobre
 
 O Projeto do Chat feito em Java que foi criado dentro do curso **Analise e Desenvolvimento de Sistemas** na cadeira de **Sistemas Distribuídos** com o professor **Paulo Honorio**.
-Essa aplicação serve para simular um chat ,quando executada abre uma janela onde aparece um campo para escrever a mensagem,com isso quando aberta outra janela de outro usuario a mensagem estará lá e o outro usuário poderá responder. 
+Essa aplicação serve para simular um chat.
+
+Existe uma aplicação que funciona como **servidor** que irá conectar os clientes, receber as mensagens deles e enviar para os demais conectados, também possui uma aplicação que funciona como **cliente** que irá se conectar com o servidor, receber as mensagens dele e enviar mensagens. 
+
+### Disivão dos pacotes
+
+A aplicação feita em Java possui 3 pacotes.
+
+1. `br.com.chat.server` aplicação **console** que possui as classes para criar uma instância do servidor.
+
+2. `br.com.chat.client.console` aplicação **console** que possui as classes para criar uma instância do cliente.
+
+3. `br.com.chat.client` aplicação **swing** que possui as classes para criar uma interface do cliente, feita no netbeans.
+
 
 ---
 
@@ -58,7 +71,7 @@ Em Java, usamos a classe Thread do pacote java. lang para criarmos linhas de exe
 ## Desenvolvido por:
 - [Pedro Lucas da Silva Matias - 20191112387 - GIT](https://github.com/PedroLSM)
 - [Matheus Gustavo Pereira 20192113862 - GIT](https://github.com/matheusmgp)
-- [Jeova Machado Freitas Filho 20192113904 - GIT]()
+- [Jeova Machado Freitas Filho 20192113904 - GIT](https://gitlab.com/jeovamachado)
 - [Rafael de Oliveira Machado - 20192113816 - GIT](https://github.com/rafaelarievilo)
 
 .
