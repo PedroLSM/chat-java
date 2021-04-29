@@ -21,8 +21,6 @@
 O Projeto do Chat feito em Java que foi criado dentro do curso **Analise e Desenvolvimento de Sistemas** na cadeira de **Sistemas Distribuídos** com o professor **Paulo Honorio**.
 Essa aplicação serve para simular um chat ,quando executada abre uma janela onde aparece um campo para escrever a mensagem,com isso quando aberta outra janela de outro usuario a mensagem estará lá e o outro usuário poderá responder. 
 
-
-
 ---
 
 ## Sistemas Distribuidos
@@ -38,10 +36,12 @@ A JVM é responsável pelo gerenciamento dos aplicativos, à medida que são exe
 ## Thread
 Thread é um pequeno programa que trabalha como um subsistema, sendo uma forma de um processo se autodividir em duas ou mais tarefas. É o termo em inglês para Linha ou Encadeamento de Execução. ... Os threads possuem vantagens e desvantagens ao dividir um programa em vários processos.
 Em Java, usamos a classe Thread do pacote java. lang para criarmos linhas de execução paralelas. A classe Thread recebe como argumento um objeto com o código que desejamos rodar.
+
 ---
 
 ## Tecnologias utilizadas
 - [Java 8](https://www.java.com/pt-BR/)
+
 ---
 
 ## 📁Como baixar o projeto
