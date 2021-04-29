@@ -56,7 +56,7 @@ falar sobre thread aqui
 
 ## Desenvolvido por:
 - [Pedro - GIT](https://github.com/PedroLSM)
-- [Matheus - GIT](https://github.com/matheusmgp)
+- [Matheus Gustavo Pereira - GIT](https://github.com/matheusmgp)
 - [Jeová - GIT]()
-- [Rafael - GIT]()
+- [Rafael - GIT](https://github.com/rafaelarievilo)
 
