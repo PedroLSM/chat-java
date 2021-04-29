@@ -11,6 +11,7 @@
 - [Thread](#thread)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Como baixar o projeto](#como-baixar-o-projeto)
+- [Desenvolvido Por](#desenvolvido-por)
 
 
 ---
