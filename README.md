@@ -24,7 +24,7 @@ Essa aplicação serve para simular um chat ,quando executada abre uma janela on
 ---
 
 ## Sistemas Distribuidos
-falar sobre sistemas distribuidos  aqui pedro 
+Sistema distribuido é um conjunto de computadores independentes ligados através da mesma rede, que aparece ao usuário como um unico sistema e coerente, auxiliando o sistema com diversos acessos, processos e etc, a comunicação é feita com base em mensagens.
 
 ---
 
